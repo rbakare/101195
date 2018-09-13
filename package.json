@@ -4,7 +4,7 @@
   "description": "raheem",
   "main": "index.js",
   "scripts": {
-    "test": "execute command:grunt validate --verbose" ,
+    "test": "hello world",
     "start": "node index.js"
   },
   "keywords": [
