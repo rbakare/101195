@@ -4,9 +4,12 @@
   "description": "raheem",
   "main": "index.js",
   "scripts": {
-    "test": "grunt validate --verbose",
-    "start": "node.index.js",
+    "test": "grunt validate --verbose"
+    
   },
+  "keywords": [
+    "rhm"
+  ],
   "author": "viktor",
   "license": "ISC",
   "dependencies": {
