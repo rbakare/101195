@@ -1,1 +1,8 @@
-console.log('node.js app has been executed...');
+console.log('node.js app has been executed');
+var http = require ('http')
+var server = http.createServer(function (request, response){
+    response.writeHead(200, {"Content-Type":"tesxt/plain"});
+    response.end("Hello World\n");
+
+});
+server.listen(8000, '127.0.0.1');
