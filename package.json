@@ -4,8 +4,8 @@
   "description": "raheem",
   "main": "index.js",
   "scripts": {
-    "test": "grunt validate --verbose"
-    
+    "test": "grunt validate --verbose",
+    "start": "node index.js"
   },
   "keywords": [
     "rhm"
